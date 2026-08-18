@@ -1,24 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
+    default: `${siteConfig.name} — ${siteConfig.descriptor}`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  keywords: ["ébénisterie", "mobilier sur mesure", "agencement", "artisan", "Nantes", "template de démonstration"],
+  authors: [{ name: siteConfig.name }],
+  creator: siteConfig.name,
+  robots: { index: false, follow: false },
+  openGraph: {
+    title: `${siteConfig.name} — ${siteConfig.descriptor}`,
+    description: siteConfig.description,
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -26,9 +25,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang={siteConfig.locale}
       data-theme={siteConfig.theme}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }

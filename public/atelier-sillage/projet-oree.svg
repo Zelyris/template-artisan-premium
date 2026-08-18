@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Comptoir Orée</title><desc id="desc">Comptoir courbe en noyer dans un espace professionnel vert profond.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#496253"/><stop offset="1" stop-color="#20372e"/></linearGradient><linearGradient id="wood" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3a2620"/><stop offset=".45" stop-color="#76503c"/><stop offset="1" stop-color="#3e2922"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><path d="M0 520h1200v155H0z" fill="#b49678"/><path d="M0 545c336-43 717-35 1200 0" fill="none" stroke="#80634e" stroke-width="4" opacity=".5"/>
+  <g fill="#d6bd8c"><circle cx="265" cy="126" r="47"/><circle cx="600" cy="126" r="47"/><circle cx="935" cy="126" r="47"/></g><g stroke="#d6bd8c" stroke-width="5"><path d="M265 0v79M600 0v79M935 0v79"/></g>
+  <path d="M180 333c129-85 255-118 421-118 167 0 296 33 420 118v216c-115 71-259 96-420 96-157 0-302-25-421-96z" fill="url(#wood)"/>
+  <path d="M180 333c129-85 255-118 421-118 167 0 296 33 420 118-109 78-255 105-420 105-160 0-309-27-421-105z" fill="#bd9768"/>
+  <path d="M238 367v151M317 330v235M402 290v306M502 260v357M601 250v375M702 260v357M802 290v306M888 330v235M967 367v151" stroke="#b88865" stroke-width="3" opacity=".52"/>
+  <path d="M153 332c127 94 292 128 448 128 162 0 320-34 448-128" fill="none" stroke="#d7b778" stroke-width="10"/>
+  <g fill="#d6bd8c"><rect x="521" y="164" width="160" height="15"/><rect x="577" y="120" width="48" height="44"/></g>
+  <g fill="none" stroke="#ead9bf" stroke-opacity=".25" stroke-width="2"><path d="M30 28h1140v620H30z"/><circle cx="600" cy="330" r="275"/></g>
+</svg>

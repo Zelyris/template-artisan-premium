@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cuisine de la Maison des Pins</title><desc id="desc">Cuisine fictive en chêne brun ouverte sur un paysage de pins.</desc>
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d7d7bd"/><stop offset="1" stop-color="#91a48c"/></linearGradient><linearGradient id="wood" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4a3429"/><stop offset=".5" stop-color="#77543e"/><stop offset="1" stop-color="#3d2d25"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="#d2bfa9"/><rect x="620" y="75" width="520" height="440" fill="url(#sky)" stroke="#334c40" stroke-width="12"/><path d="M880 80v430M625 300h510" stroke="#334c40" stroke-width="9"/>
+  <g fill="#315044"><path d="M710 439l73-261 75 261z"/><path d="M832 439l89-312 94 312z"/><path d="M1010 439l52-211 58 211z"/></g><path d="M0 673h1200v227H0z" fill="#9b7d65"/>
+  <rect x="63" y="94" width="456" height="555" fill="url(#wood)"/><g stroke="#b18862" stroke-width="3"><path d="M215 95v554M365 95v554M64 360h454"/></g><g fill="#d2b17b"><circle cx="196" cy="228" r="5"/><circle cx="346" cy="228" r="5"/><circle cx="496" cy="228" r="5"/><circle cx="196" cy="500" r="5"/><circle cx="346" cy="500" r="5"/><circle cx="496" cy="500" r="5"/></g>
+  <path d="M340 579c117-94 307-134 511-112 142 15 232 57 297 111-70 93-217 131-419 121-193-9-320-43-389-120z" fill="#bc9768"/><path d="M373 586c131-62 286-86 464-67 108 12 197 34 269 68" fill="none" stroke="#e0c696" stroke-width="5" opacity=".55"/>
+  <path d="M489 647h99l-28 206h-82zM893 646h98l35 207h-82z" fill="#594034"/>
+  <g fill="none" stroke="#f1e1c9" stroke-opacity=".31" stroke-width="2"><path d="M28 28h1144v844H28z"/><path d="M575 50v510"/><path d="M550 540h610"/></g>
+</svg>

@@ -1,40 +1,60 @@
-# Site Factory — Modèle maître neutre
+# Atelier Sillage — Template Artisan Premium
 
-Ce repository est la fondation technique de la Site Factory. Il ne représente aucune entreprise et ne doit jamais être transformé directement en site client.
+Template commercial fictif pour un atelier français d’ébénisterie contemporaine. L’ensemble a été conçu comme une démonstration réutilisable, chaleureuse et haut de gamme, avec des contenus explicitement signalés comme exemples.
 
-## Règle principale
+## Stack
 
-Avant toute personnalisation, utilisez **Use this template** sur GitHub pour créer un nouveau repository. Le modèle maître doit toujours rester neutre.
-
-## Technologies
-
-- Next.js 16 avec App Router
+- Next.js 16 (App Router)
 - React 19
-- TypeScript
+- TypeScript strict
 - Tailwind CSS 4
 - pnpm
 
-## Zones de personnalisation
+## Organisation
 
-- `src/config/site.ts` : identité, coordonnées, navigation et thème actif.
-- `src/content/content.ts` : textes et contenus fréquemment modifiés.
-- `src/styles/themes.css` : couleurs et variables visuelles des thèmes.
-- `src/components` : sections et briques réutilisables.
+- `src/config/site.ts` centralise l’identité, les coordonnées, la navigation, les appels à l’action et les mentions.
+- `src/content/content.ts` centralise tous les textes, projets, témoignages et contenus métier.
+- `src/styles/themes.css` contient la palette et les variables visuelles du thème Artisan Premium.
+- `src/components/sections` regroupe les sections réutilisables de la page.
+- `src/components/ui` contient les briques d’interface partagées.
+- `public/atelier-sillage` contient les illustrations SVG originales et locales.
 
-## Procédure pour un nouveau template
+## Formulaire de projet
 
-1. Créer un repository depuis ce modèle.
-2. Cloner le nouveau repository sur l’ordinateur.
-3. Ouvrir son dossier dans une nouvelle tâche Codex.
-4. Construire et vérifier le template.
-5. Commit et push avec GitHub Desktop.
-6. Importer le repository dans Vercel.
+Le formulaire ne comporte aucun service serveur. À la validation, il construit un lien `mailto:` avec un sujet et un message préremplis, puis ouvre le logiciel de messagerie de la personne. Aucune donnée n’est envoyée au site, stockée ou associée à un faux message de réussite.
 
-## Vérifications
+L’adresse utilise volontairement le domaine réservé `.example`. Remplacez-la dans `src/config/site.ts` avant toute mise en ligne réelle.
+
+## Contenus fictifs
+
+L’entreprise, les personnes, les réalisations, les témoignages, les statistiques, les tarifs indicatifs, les coordonnées, les numéros d’entreprise et l’étude de cas sont fictifs. Les mentions sont intégrées directement dans l’interface et doivent être adaptées avant utilisation commerciale.
+
+## Ressources visuelles
+
+Les six illustrations sont des SVG originaux créés pour ce template. Elles sont servies localement, sans hotlink ni ressource tierce. Les typographies reposent sur des piles système afin d’éviter tout téléchargement externe.
+
+## Développement
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Le site est ensuite accessible sur `http://localhost:3000`.
+
+## Contrôles
 
 ```bash
 pnpm lint
 pnpm build
 ```
 
-Le serveur local se lance avec `pnpm dev` et s’affiche sur `http://localhost:3000`.
+Le template inclut des repères de focus visibles, une navigation clavier, des alternatives textuelles, des composants HTML sémantiques et une réduction des animations via `prefers-reduced-motion`.
+
+## Avant publication
+
+1. Remplacer tous les contenus d’exemple et supprimer les mentions de démonstration devenues inutiles.
+2. Renseigner des coordonnées, mentions légales et informations d’hébergement exactes.
+3. Remplacer l’adresse e-mail `.example` par une adresse active.
+4. Vérifier les offres, délais, budgets, zones d’intervention et déclarations environnementales.
+5. Réaliser une dernière revue juridique, éditoriale et d’accessibilité.

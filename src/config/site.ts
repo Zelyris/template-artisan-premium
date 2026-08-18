@@ -1,19 +1,43 @@
 import type { SiteConfig } from "@/lib/types";
 
 export const siteConfig = {
-  name: "Site Factory — Base neutre",
+  name: "Atelier Sillage",
+  shortName: "Sillage",
+  descriptor: "Ébénisterie contemporaine",
   description:
-    "Une fondation Next.js centralisée, réutilisable et prête à devenir un nouveau template commercial.",
+    "Template de démonstration pour un atelier français d’ébénisterie contemporaine : mobilier, agencement et restauration sur mesure.",
   locale: "fr",
-  theme: "minimal-premium",
-  contact: {
-    phone: "01 23 45 67 89",
-    phoneHref: "tel:+33123456789",
-    email: "contact@votre-entreprise.fr",
-  },
+  theme: "artisan-premium",
   navigation: [
-    { label: "Accueil", href: "#accueil" },
-    { label: "Architecture", href: "#architecture" },
-    { label: "Contact", href: "#contact" },
+    { label: "Réalisations", href: "#realisations" },
+    { label: "Savoir-faire", href: "#prestations" },
+    { label: "Méthode", href: "#methode" },
+    { label: "L’atelier", href: "#atelier" },
+    { label: "FAQ", href: "#faq" },
   ],
+  actions: {
+    project: {
+      label: "Parler de votre projet",
+      href: "#contact",
+      ariaLabel: "Parler de votre projet avec Atelier Sillage",
+    },
+    work: {
+      label: "Imaginer une pièce",
+      href: "#contact",
+    },
+  },
+  contact: {
+    email: "bonjour@atelier-sillage.example",
+    phone: "+33 (0)2 40 00 00 00",
+    phoneHref: "tel:+33240000000",
+    address: ["18, passage des Compagnons", "44000 Nantes, France"],
+    region: "Nantes · Loire-Atlantique",
+    hours: "Du lundi au vendredi, sur rendez-vous",
+  },
+  legal: {
+    company: "Atelier Sillage — entreprise fictive de démonstration",
+    registration: "SIRET 000 000 000 00000 — exemple",
+    publication: "Direction de la publication : Camille Renaud — identité fictive",
+    hosting: "Hébergement à renseigner avant mise en ligne",
+  },
 } as const satisfies SiteConfig;

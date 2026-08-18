@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Table Aube</title><desc id="desc">Table ovale claire dans un intérieur aux murs couleur lin.</desc>
+  <defs><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee3cf"/><stop offset="1" stop-color="#cdbda5"/></linearGradient><linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a9855d"/><stop offset=".5" stop-color="#d1b789"/><stop offset="1" stop-color="#96744f"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#wall)"/><rect y="490" width="1200" height="185" fill="#8e725c"/>
+  <rect x="63" y="60" width="390" height="340" fill="#c5c4ab" stroke="#587060" stroke-width="9"/><path d="M258 64v332M67 230h382" stroke="#587060" stroke-width="7"/><circle cx="146" cy="133" r="34" fill="#e1bd7c"/>
+  <ellipse cx="672" cy="423" rx="390" ry="90" fill="#6d543e" opacity=".22"/>
+  <path d="M269 353c27-82 146-121 403-121 258 0 382 44 410 121-23 81-151 123-410 123-257 0-377-42-403-123z" fill="url(#top)"/>
+  <path d="M535 421h92l-31 207h-74zM769 421h91l27 207h-75z" fill="#795c42"/>
+  <path d="M308 352c114-50 264-60 364-60 140 0 288 18 372 61" fill="none" stroke="#f1d9ad" stroke-opacity=".5" stroke-width="4"/>
+  <g fill="#385345"><path d="M1028 110c-88 53-90 151-40 201 48-29 78-113 40-201z"/><path d="M1084 209c-58 53-44 118-9 149 42-31 56-91 9-149z"/><path d="M984 218c-52 43-49 95-20 124 37-21 54-78 20-124z"/></g><path d="M1035 277v205" stroke="#385345" stroke-width="8"/><path d="M978 479h116l-17 99h-83z" fill="#b67f61"/>
+  <g fill="none" stroke="#6f665a" stroke-opacity=".32" stroke-width="2"><path d="M28 25h1144v625H28z"/><path d="M85 616h1030"/></g>
+</svg>
